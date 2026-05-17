@@ -1,0 +1,34 @@
+# Credentials and local configuration
+config.json
+
+# SQLite databases (use scripts/create_sample_db.py to regenerate)
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# uv
+.uv/
+uv.lock
+
+# Environment variables
+.env
+.env.*
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db

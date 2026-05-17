@@ -1,0 +1,12 @@
+[project]
+name = "mcp-database-server"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp>=1.0.0",
+    "aiomysql>=0.2.0",
+    "asyncpg>=0.29.0",
+    "aiosqlite>=0.20.0",
+    "aioodbc>=0.5.0",
+    "pyodbc>=5.0.0",
+]

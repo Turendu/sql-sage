@@ -1,0 +1,14 @@
+{
+  "server": {
+    "name": "mcp_server_name",
+    "db_engine": "sqlite"
+  },
+  "database": {
+    "file": "C:\\path\\to\\mcp_server\\sample.db"
+  },
+  "security": {
+    "query_timeout_seconds": 30,
+    "max_rows": 500
+  },
+  "system_prompt": "You are an expert SQL query generator for {db_engine}. Your task is to write the most efficient SQL query based on the user's request. The database you are working with is called '{db_name}'. RULE: NEVER use DDL statements (CREATE, DROP, ALTER) or DML statements (DELETE, UPDATE, INSERT)."
+}
